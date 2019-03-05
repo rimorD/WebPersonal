@@ -1,7 +1,7 @@
  footer{
 	 text-align:center;
  }
- h3{
+ h1,h2,h3{
 	 text-align:center;
 	 text-transform: uppercase;
  }
@@ -11,6 +11,7 @@
 body{
 	background-color:#404040;
 	color:#FFFFFF;
+	font-family:Verdana, Geneva, sans-serif;
 }
 footer{
 	background-color:#F6F6F6;
@@ -41,9 +42,11 @@ nav{
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  font-weight:bold;
 }
 
 nav a{
+	text-transform:uppercase;
 	float:left;
 	display: block;
   color: #FFFFFF;
@@ -56,9 +59,22 @@ nav a:hover{
 	background-color:#111;
 }
 h1{
-	text-align:center;
-	padding-top:5%;
+	padding-top:7%;
+	padding-bottom:7%;
 }
-#cabecera{
-	background-image: url("../src/cabecera.jpg");
+#body_proyectos ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#body_proyectos ul li{
+	padding-top:5%;
+	padding-bottom:5%;
+}
+#spaceranger{
+	background-image:url("../src/spaceranger.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:100%;
+	background-position: right top;
 }
