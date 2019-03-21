@@ -7,27 +7,42 @@
     <title>David Ferreiro</title>
 	 <meta name="description" content="Página web de uso personal"/>
 	 <meta name="author" content="David Ferreiro Fernández"/>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+	 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<link rel='shortcut icon' type='image/png' href='src/favicon.png' />
+	<link rel="stylesheet" href="css/style.css">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+    <ul class="nav navbar-nav">
+	<li class="active"><a href="index.html">Home</a></li>
+	<li><a href="#sobremi">Sobre mí</a></li>
+	<li><a href="#resumen">Resumen</a></li>
+	<li><a href="#habilidades">Habilidades</a></li>
+	<li><a href="proyectos/indice.html">Proyectos</a></li>
+	</ul>
+	</div>
+	</nav>
 </head>
 <body>
-	<nav>
-	<a href="#sobremi">Sobre mí</a>
-	<a href="#resumen">Resumen</a>
-	<a href="#habilidades">Habilidades</a>
-	<a href="proyectos/indice.html">Proyectos</a>
-	</nav>
-	<div id=cabecera>
+<main>
+	<div class="container-fluid" class="header" id="home">
 	<h1>David Ferreiro Fernández</h1>
-	<img src="src/img.jpg" alt="Mi Foto" width="10%" id="mifoto"/>
 	<h2>Ingeniero de Software</h2>
 	</div>
+	<div class="container">
 	<section id="sobremi">
+	<div class="row">
+	<div class="col col-sm-10">
 	<h3>¿Quién soy?</h3>
-	<p>Mi nombre es David Ferreiro Fernández, nací en Gijón, Asturias en Octubre de 1997. 
+	<blockquote class="blockquote-reverse">Mi nombre es David Ferreiro Fernández, nací en Gijón, Asturias en Octubre de 1997. 
 	Actualmente me encuentro en último curso de Ingeniería del Software en la Escuela de Ingeniería Informática de Oviedo. 
 	Cuando termine mis estudios me gustaría incorporarme a la industria del videojuego como programador de Gameplay. 
-	También encuentro apasionante la rama de la ciberseguridad, por lo que quizá continúe formándome en ese ámbito.</p>
+	También encuentro apasionante la rama de la ciberseguridad, por lo que quizá continúe formándome en ese ámbito.</blockquote></div>
+	<div class="col col-sm-2"><img class="img-circle" width="100%" src="src/img.jpg" alt="Mi Foto"/></div>
+	</div>
 	</section>
 	<section id="resumen">
 	<h3>Formación</h3>
@@ -70,7 +85,7 @@
 	JavaScript
 	</li>
 	<li>
-	HTML5 y CSS3
+	HTML5, CSS3, Bootstrap 3
 	</li>
 	<li>
 	C#
@@ -109,7 +124,9 @@
 	</li>
 	</ul>
 	</section>
-	<a href="proyectos/indice.html"><h3 id="proyectos">Proyectos</h3></a>
+	<a class="btn btn-info btn-block" role="button" href="proyectos/indice.html">Proyectos</a>
+	</div>
+	</main>
 	<footer>
 		<p>David Ferreiro Fernández</p>
 		<p>davidferreirofernandez@outlook.es</p>
