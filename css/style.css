@@ -26,6 +26,13 @@ main{
 	background-repeat: no-repeat;
   background-size: cover;
 }
+section{
+	padding-top:50px;
+}
+#btnProyectos{
+	padding-top:30px;
+	padding-bottom:30px;
+}
 
 h1,h2,h3{
 	font-family: 'Saira Extra Condensed', sans-serif;
