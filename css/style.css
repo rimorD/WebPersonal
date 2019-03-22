@@ -24,20 +24,35 @@ main{
 	padding-top:110px;
     padding-bottom:110px;
 	background-repeat: no-repeat;
-  background-size: cover;
+	background-size: cover;
 }
 section{
 	padding-top:50px;
 }
 #btnProyectos{
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:30px;
+}
+.proyecto{
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align:center;
 	padding-top:30px;
 	padding-bottom:30px;
 }
+#sectionProyectos{
+	text-align:center;
+}
+#sectionProyectos .btn{
+	padding-left:10%;
+	padding-right:10%;
+}
 
-h1,h2,h3{
+h1,h2,h3,#btnProyectos{
 	font-family: 'Saira Extra Condensed', sans-serif;
 }
-h1,h2,h3,nav{
+h1,h2,h3,nav,#btnProyectos{
 	text-transform:uppercase;
 }
 h1,h2{
