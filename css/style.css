@@ -13,14 +13,14 @@ main{
 }
 
 #home{
-	background-image: url("../src/header.jpeg");
+	background-image: url("../res/header.jpeg");
 	padding-top:150px;
 	padding-bottom:150px;
 	background-repeat: no-repeat;
-  background-size: cover;
+	background-size: cover;
 }
 #proyectos{
-	background-image: url("../src/proyectos.jpg");
+	background-image: url("../res/proyectos.jpg");
 	padding-top:110px;
     padding-bottom:110px;
 	background-repeat: no-repeat;
@@ -40,9 +40,34 @@ section{
 	text-align:center;
 	padding-top:30px;
 	padding-bottom:30px;
+	color:#FFFFFF;
+}
+.proyecto:hover{
+	opacity:0.75;
+}
+a:hover{
+	text-decoration: none;
 }
 #sectionProyectos{
 	text-align:center;
+}
+#spaceranger{
+	background-image: url("../res/spaceranger.png");
+}
+#notonmywatch{
+	background-image: url("../res/notonmywatch.png");
+}
+#unrealtfg{
+	background-image: url("../res/unrealtfg.png");
+}
+#tiralatorre{
+	
+}
+#infiniterunner{
+	
+}
+#spelunky{
+	
 }
 #sectionProyectos .btn{
 	padding-left:10%;
