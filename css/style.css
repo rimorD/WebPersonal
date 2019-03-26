@@ -1,5 +1,5 @@
  footer{
-	 text-align:center;
+	text-align:center;
 	background-color:#222;
 	color:#FFFFFF;
 	padding-top:20px;
@@ -61,13 +61,16 @@ a:hover{
 	background-image: url("../res/unrealtfg.png");
 }
 #tiralatorre{
-	
+	background-image: url("../res/tiralatorre.png");
 }
 #infiniterunner{
-	
+	background-image: url("../res/infiniterunner.png");
 }
 #spelunky{
-	
+	background-image: url("../res/spelunky.png");
+}
+#metalgear{
+	background-image: url("../res/metalgear.png");
 }
 #sectionProyectos .btn{
 	padding-left:10%;
